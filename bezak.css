@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    transition: 1s liner;
+    margin-bottom: 50px;
+}
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-right{
+    width: 923px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.main-left{
+    background: white;
+    width: 923px;
+    height: 100vh;
+    padding: 40px 60px;
+}
+.navbar{
+    width: 100%;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    position: relative;
+    bottom: 45px;    
+    left: 130px;
+}
+.active:target{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    transition: 1s linear;
+}

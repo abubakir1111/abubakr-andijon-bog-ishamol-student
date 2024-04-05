@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    transition: 1s liner;
+    margin-bottom: 50px;
+}
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-right{
+    width: 923px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.main-left{
+    color: #000;
+    width: 923px;
+    height: 100vh;
+    padding: 40px 60px;
+}
+.navbar{
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 30px;    
+    left: 130px;
+}
+.active:target{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    transition: 1s linear;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.uy{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.kar{
+    width: 175px;
+    height: 168px;
+    background: green;
+    transition: 1s linear 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    top: 165px;
+    left: 160px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: white;
+    /* transform: translateX(-100px) translateY(0px);
+    transform: translateX(100px, 50px);
+    transform: scaleX(1) scaleY(1);
+    transform: rotate(0deg);
+    transform: skewX(450deg) skewY(45deg);
+    transform: skew(-45deg, 10deg);
+    transform: matrix(a, b, c, d, x, y);
+    transform: matrix(scaleX, skeX, scaleY, translateX, translateY) ;
+    transform: matrix(1, 2, 3, 4, 5, 6,);
+    transform: 
+    translate(100px, 100px)
+    scale(2, 0.5)
+    skew(10deg, 10deg)
+    rotate(150deg)
+    ; */
+
+}
+
+.kar:hover{
+    transform: translateX(0px) translateY(0px);
+    transform: scaleX(3) scaleY(3);
+}
+.kar:hover{
+    transition: 2s linear;
+    background: red;
+    color: blue;
+}
+.kar:hover{
+    transition: 2s linear;
+    background: yellow;
+    color: rgb(255, 0, 0);
+}
+.uy {
+   
+    background: red;
+    color: blue;
+}
+
+.uy{
+    background: #fff;
+    color: #000;
+    backdrop-filter: blur(50px);
+    animation: ray;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: unset;
+    animation-delay: 1s;
+    
+}
+@keyframes ray{
+    from{
+         transform: translate(0px);
+         to{
+            transform: translateX(400px);
+         }
+    }
+0%, 100%{
+    transform: (0px);
+}
+25%{
+    transform: rotate(360deg) ;
+}
+
+
+}
+
